@@ -19,7 +19,7 @@ if(number1>number2)
 Console.Write("max=");
 Console.WriteLine(number1);
 }
-else
+else if (number2>number1)
 {
 Console.Write("max=");
 Console.WriteLine(number2);
