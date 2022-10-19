@@ -10,3 +10,4 @@ int number1 = (number/10)-(number/100)*10;
 Console.WriteLine($"Исходное число {number}");
 Console.WriteLine($"Результат {number1}");
 
+// Как можно иначе записать 9 строку? (если можно)Ф
