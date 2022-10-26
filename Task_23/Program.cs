@@ -8,6 +8,6 @@ int N = int.Parse(Console.ReadLine());
 
 for (int i=1; i<=N ;i++)
 {
-    int N3 = i*i*i;
+    int N3 = i*i*i; // Как можно по-другому записать???
     Console.WriteLine(N3);
 }
