@@ -22,12 +22,12 @@ double y = 0;
 if (k1 == k2 || b1 == b2)
 
 {
-    Console.WriteLine("Прямые параллельны или совпадают");5
+    Console.WriteLine("Прямые параллельны или совпадают");
 }
 
 else
 {
     x = (b2 - b1) / (k1 - k2);
     y = k1 * x + b1;
+    Console.WriteLine($"Координаты точки пересечения: ({x}; {y})");
 }
-Console.WriteLine($"Координаты точки пересечения: ({x}; {y})");
