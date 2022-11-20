@@ -10,7 +10,7 @@ int [] array = GetArray(size);
 
 Console.WriteLine();
 
-Console.WriteLine(String.Join(",", array));
+Console.WriteLine(String.Join(", ", array));
 
 int [] GetArray (int size)
 {
